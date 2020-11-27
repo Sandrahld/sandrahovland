@@ -61,7 +61,7 @@ main {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: first baseline;
 }
 
 .header-bottom h1 {

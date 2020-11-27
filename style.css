@@ -106,17 +106,11 @@ main {
     transition: color 0.5s ease-in;
 }
 
-svg.fab text:active {
-    text-decoration: none !important;
-}
-svg.fab text:link {
-    text-decoration: none !important;
-}
-svg.fab text:hover {
-    text-decoration: none !important;
-}
-svg.fab text:visited {
-    text-decoration: none !important;
+a:any-link {
+    color: -webkit-link;
+    text-decoration: none;
+    cursor: auto;
+    font-weight: bolder;
 }
 
 svg.fab text:hover {
